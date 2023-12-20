@@ -1,0 +1,124 @@
+nav img {
+    width: 164px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 34px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    font-family: 'Segoe UI';
+}
+
+nav ul li {
+    /* gap: 34px; */
+    padding: 0 5px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+nav ul li img {
+    width: 20px;
+}
+
+.first {
+    display: flex;
+    /* background-color: aquamarine; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 63px;
+    margin: 70px;
+    font-family: sans-serif;
+}
+
+.first span {
+    font-size: 40px;
+}
+
+section span img {
+    width: 82px;
+    margin: 0 23px;
+}
+
+.first p {
+    text-align: center;
+    width: 44vw;
+    font-size: 23px;
+}
+
+.btn {
+    background-color: #80e3f2;
+    padding: 14px 16px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.blue {
+    background-color: #5cb85c;
+}
+
+.flex {
+    display: flex;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.second {
+    max-width: 50vw;
+    margin: auto;
+    /* section jiski class second h vo beech m agaya */
+}
+.item{
+    padding: 23px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.item-lang{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 36px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
+.download :nth-child(2){
+    font-size: 23px;
+}
+.download img{
+    padding: 0px 12px;
+}
+.download{
+    display: flex;
+    font-family: sans-serif;
+    gap: 10px;
+    align-items: center;
+}
+@media screen and (max-width: 1145px) {
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    
+}
